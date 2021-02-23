@@ -27,6 +27,7 @@ ul a { /*Sélectionne toutes les balises <a>  situées à l'intérieur d'une bal
 
 a:hover {
     color: #0065FC; /*bleu au survol*/
+    border-top: 2px solid #0065FC;
 }
 
 
