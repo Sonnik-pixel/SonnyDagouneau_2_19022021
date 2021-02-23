@@ -3,3 +3,19 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
+.logo {
+    float: left;
+}
+
+ul {
+    margin-top: 40px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 174, 0);
+    width: 25%;
+    margin-left: auto;
+    font-weight: bold;
+    
+}
