@@ -22,7 +22,7 @@ ul {
 
 ul a { /*Sélectionne toutes les balises <a>  situées à l'intérieur d'une balise <ul>*/
     text-decoration: none; /*enlever soulignement*/
-    color: black; /*couleur noir et non violet quand lien visisté*/
+    color: black; /*couleur noir et non violet quand lien visité*/
 }
 
 a:hover {
