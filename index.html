@@ -4,15 +4,18 @@
         <meta charset="UTF-8" /> 
         <link rel="stylesheet" href="style.css" />
         <title>Reservia</title>
-        <meta name="viewport" content="width=device-width", initial-scale=1.0"> <!--forcer le bon niveau de zoom aux navigateurs mobiles-->
+        <!--forcer le bon niveau de zoom aux navigateurs mobiles-->
+        <meta name="viewport" content="width=device-width", initial-scale=1.0"> 
     </head>
     <body>
         <header>
-                <img src="images/logo/Reservia.svg" class="logo" alt="Logo Reservia" />
-            <nav>
+                <!--ALT pour le référencement des images, affiche le texte si connexion lente-->
+                <img src="images/logo/Reservia.svg" id="logo" alt="Logo Reservia" /> 
+            <nav class="navigation">
                 <ul>
-                    <li><a href="#ancreheberg">Hébergements</a></li> <!--Faire id="ancreheberg" plus bas-->
-                    <li><a href="#ancreactiv">Activités</a></li>
+                    <!--Faire id="ancreheberg" plus bas // TITLE pour guider l'utilisateur sur ce qu'il voit-->
+                    <li><a href="#AncreHeberg" title="Hébergements">Hébergements</a></li> 
+                    <li><a href="#AncreActiv" title="Activités">Activités</a></li>
                     <li class="inscrire">S'inscrire</li>
                 </ul>
             </nav>
@@ -20,7 +23,8 @@
         <main>
             <nav>
             </nav>
-            <section> <!--article dans section ou l'inverse ?-->                
+            <!--article dans section ou l'inverse ?--> 
+            <section>               
                 <aside>
                 </aside>
                 <article>

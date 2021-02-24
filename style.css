@@ -2,26 +2,31 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
-.logo {
+#logo {
     float: left;
     margin-top: 0em;
     margin-left: 2em;
 }
 ul {
     /*background-color: rgb(255, 174, 0);*/
-    margin-top: 40px;
+    margin-top: 2.5em;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     width: 25%;
     margin-left: auto;
 }
-ul a { /*Sélectionne toutes les balises <a>  situées à l'intérieur d'une balise <ul>*/
-    text-decoration: none; /*enlever soulignement*/
-    color: black; /*couleur noir et non violet quand lien visité*/
+/*Sélectionne toutes les balises <a>  situées à l'intérieur d'une balise <ul>*/
+ul a { 
+    /*enlever soulignement*/
+    text-decoration: none;
+}
+a:visited{
+    color: black;
 }
 a:hover {
-    color: #0065FC; /*bleu au survol*/
+    /*bleu au survol*/
+    color: #0065FC; 
     border-top: 2px solid #0065FC;
     padding-top: 38px;
     /*padding: 10px;*/
