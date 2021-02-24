@@ -24,7 +24,7 @@ ul a {
 a:visited{
     color: black;
 }
-a:hover {
+li a:hover {
     /*bleu au survol*/
     color: #0065FC; 
     border-top: 2px solid #0065FC;
