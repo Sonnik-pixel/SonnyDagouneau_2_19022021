@@ -2,36 +2,58 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
-#logo {
-    float: left;
-    margin-top: 0em;
-    margin-left: 2em;
-}
-ul {
-    /*background-color: rgb(255, 174, 0);*/
-    margin-top: 2.5em;
-    list-style-type: none;
+
+
+header {
+    /*mettre mes élements les uns à côté des autres*/
     display: flex;
-    justify-content: space-around;
-    width: 25%;
-    margin-left: auto;
+    /*va à la ligne quand plus de place*/
+    flex-wrap: wrap;
 }
-/*Sélectionne toutes les balises <a>  situées à l'intérieur d'une balise <ul>*/
-ul a { 
-    /*enlever soulignement*/
-    text-decoration: none;
+
+header div {
+    /*toute mes divs ont une largeur de 25% sur ma feuille*/
+    width: 200px; 
+    height: 100px;
 }
-a:visited{
-    color: black;
+
+/* Mobile */
+/* Si je passe en dessous de 575.98 Pixel le max-width va s'appliquer */
+@media (max-width: 575.98px) {
+    .navUn {
+        background-color: green;
+        order: 1;
+    }
+    .navDeux {
+        background-color: orange;
+        order: 3;
+    }
+    .navTrois {
+        background-color: red;
+        order: 4;
+    }
+    .navQuatre {
+        background-color: yellow;
+        order: 2;
+    }
 }
-li a:hover {
-    /*bleu au survol*/
-    color: #0065FC; 
-    border-top: 2px solid #0065FC;
-    padding-top: 38px;
-    /*padding: 10px;*/
-}
-.inscrire {
-    font-weight: bold;
-    color: #0065FC;
+/* Tablette et pc */
+/* Si je passe au dessus de 575.98 Pixel le max-width va s'appliquer */
+@media (min-width: 575.98px) { 
+    .navUn {
+        background-color: green;
+        order: 1;
+    }
+    .navDeux {
+        background-color: cyan;
+        order: 2;
+    }
+    .navTrois {
+        background-color: blue;
+        order: 3;
+    }
+    .navQuatre {
+        background-color: purple;
+        order: 4;
+    }
 }
