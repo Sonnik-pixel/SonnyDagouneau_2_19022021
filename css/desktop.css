@@ -1,0 +1,50 @@
+  @media (min-width:1140px) {
+
+      /**************************/
+      /****** HEADER NAVBAR ******/
+      /**************************/
+      header ul {
+          display: flex;
+      }
+
+      .nav1 {
+          background-color: red;
+          flex-grow: 1;
+      }
+
+      .nav2 {
+          background-color: green;
+          flex-basis: 10%;
+      }
+
+      .nav3 {
+          background-color: yellow;
+          flex-basis: 10%;
+      }
+
+      .nav4 {
+          background-color: brown;
+          flex-basis: 10%;
+          order: 10;
+      }
+
+      header a {
+          text-decoration: none;
+      }
+
+      ul li {
+          display: flex;
+      }
+
+      .lien4 {
+          justify-content: flex-end;
+      }
+
+      .lien2 {
+          justify-content: center;
+      }
+
+      .lien3 {
+          justify-content: center;
+      }
+  }
