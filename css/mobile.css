@@ -1,39 +1,43 @@
     header ul {
-        /*width: 300px;*/
-        /*height: 50px;*/
         display: flex;
         flex-wrap: wrap;
+        width: 95vw;
+        margin: 0 3vw;
+        font-size: 1.3rem;
       }
     
       .nav1 {
         background-color: blue;
+        width: 47vw;
+        padding-top: 1rem;
         display: flex;
-        flex-basis: 50%;
       }
     
       .nav2 {
         background-color: green;
-        flex-basis: 50%;
+        width: 47vw;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 4rem 0 0;
       }
     
       .nav3 {
         background-color: yellow;
-        flex-basis: 50%;
+        width: 47vw;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0 0 2rem;
       }
     
       .nav4 {
         background-color: brown;
-        flex-basis: 50%;
+        width: 47vw;
         order: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-weight: bold;
       }
       header a {
          text-decoration: none;
-      }
-      .lien4 {
-        display: flex;
-        justify-content: flex-end;
-      }
-        .lien2 {
-        display: flex;
-        justify-content: flex-end;
       }

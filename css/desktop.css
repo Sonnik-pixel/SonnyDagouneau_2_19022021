@@ -5,46 +5,31 @@
       /**************************/
       header ul {
           display: flex;
+          font-size: 1rem;
       }
 
       .nav1 {
           background-color: red;
           flex-grow: 1;
+          margin-top: 2em;
       }
 
       .nav2 {
           background-color: green;
-          flex-basis: 10%;
+          width: 10vw;
+          align-items: center;
       }
 
       .nav3 {
           background-color: yellow;
-          flex-basis: 10%;
+          width: 10vw;
+          align-items: center;
       }
 
       .nav4 {
           background-color: brown;
-          flex-basis: 10%;
+          width: 10vw;
           order: 10;
+          align-items: center;
+          padding-top: 1rem;
       }
-
-      header a {
-          text-decoration: none;
-      }
-
-      ul li {
-          display: flex;
-      }
-
-      .lien4 {
-          justify-content: flex-end;
-      }
-
-      .lien2 {
-          justify-content: center;
-      }
-
-      .lien3 {
-          justify-content: center;
-      }
-  }
