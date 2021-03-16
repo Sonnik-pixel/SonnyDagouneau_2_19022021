@@ -1,43 +1,75 @@
     header ul {
-        display: flex;
-        flex-wrap: wrap;
-        width: 95vw;
-        margin: 0 3vw;
-        font-size: 1.3rem;
-      }
-    
-      .nav1 {
-        background-color: blue;
-        width: 47vw;
-        padding-top: 1rem;
-        display: flex;
-      }
-    
-      .nav2 {
-        background-color: green;
-        width: 47vw;
-        display: flex;
-        justify-content: center;
-        padding: 1rem 4rem 0 0;
-      }
-    
-      .nav3 {
-        background-color: yellow;
-        width: 47vw;
-        display: flex;
-        justify-content: center;
-        padding: 1rem 0 0 2rem;
-      }
-    
-      .nav4 {
-        background-color: brown;
-        width: 47vw;
-        order: 0;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        font-weight: bold;
-      }
-      header a {
-         text-decoration: none;
-      }
+      display: flex;
+      flex-wrap: wrap;
+      width: 95vw;
+      margin: auto;
+      font-size: 1.3rem;
+      padding-top: 1rem;
+    }
+
+    .nav1 {
+      /*background-color: blue;*/
+      width: 47vw;
+      display: flex;
+    }
+
+    .nav2 {
+      /*background-color: green;*/
+      width: 47vw;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0 0 0;
+    }
+
+    .nav3 {
+      /*background-color: yellow;*/
+      width: 47vw;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0 0 0;
+    }
+
+    .nav4 {
+      /*background-color: brown;*/
+      width: 47vw;
+      order: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .nav4 a {
+      color: #0065FC;
+    }
+
+    .nav2 a {
+      color: black;
+    }
+
+    .nav2 a:hover {
+      color: #0065FC;
+
+    }
+
+    .nav2:hover {
+      border-bottom: 3px solid #0065FC;
+      padding-bottom: 0.6rem;
+    }
+
+    .nav3 a {
+      color: black;
+    }
+
+    .nav3 a:hover {
+      color: #0065FC;
+    }
+
+    .nav3:hover {
+      border-bottom: 3px solid #0065FC;
+      padding-bottom: 0.6rem;
+    }
