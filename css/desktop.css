@@ -7,35 +7,41 @@
       header ul {
           display: flex;
           flex-wrap: nowrap;
-
+          padding-top: 0;
       }
 
       .nav4 {
           order: 10;
           padding-right: 4rem;
-          padding-top: 0rem;
+          padding-top: 2rem;
       }
 
       .nav1 {
           width: 400vw;
-          padding-top: 1.7rem;
+          padding-top: 3.2rem;
           padding-left: 2.7rem;
       }
 
       .nav3 {
           border-bottom: none;
+          border-top: 2px solid #ffffff;
+          padding-top: 3rem;
       }
 
       .nav3:hover {
           border-bottom: none;
-          border-top: 2px solid #0065FC;
+          border-color: #0065FC;
       }
 
       .nav2 {
           border-bottom: none;
+          border-top: 2px solid #ffffff;
+          padding-top: 3rem;
       }
 
       .nav2:hover {
           border-bottom: none;
-          border-top: 2px solid #0065FC;
+          border-color: #0065FC;
       }
+
+/*voir avec Maeva les couleurs hover et le 16px au top d'ou venait-il? faire tout redescendre*/
