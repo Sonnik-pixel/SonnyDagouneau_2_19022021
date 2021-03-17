@@ -3,33 +3,39 @@
       /**************************/
       /****** HEADER NAVBAR ******/
       /**************************/
+
       header ul {
           display: flex;
-          font-size: 1rem;
-      }
+          flex-wrap: nowrap;
 
-      .nav1 {
-          background-color: red;
-          flex-grow: 1;
-          margin-top: 2em;
-      }
-
-      .nav2 {
-          background-color: green;
-          width: 10vw;
-          align-items: center;
-      }
-
-      .nav3 {
-          background-color: yellow;
-          width: 10vw;
-          align-items: center;
       }
 
       .nav4 {
-          background-color: brown;
-          width: 10vw;
           order: 10;
-          align-items: center;
-          padding-top: 1rem;
+          padding-right: 4rem;
+          padding-top: 0rem;
+      }
+
+      .nav1 {
+          width: 400vw;
+          padding-top: 1.7rem;
+          padding-left: 2.7rem;
+      }
+
+      .nav3 {
+          border-bottom: none;
+      }
+
+      .nav3:hover {
+          border-bottom: none;
+          border-top: 2px solid #0065FC;
+      }
+
+      .nav2 {
+          border-bottom: none;
+      }
+
+      .nav2:hover {
+          border-bottom: none;
+          border-top: 2px solid #0065FC;
       }
