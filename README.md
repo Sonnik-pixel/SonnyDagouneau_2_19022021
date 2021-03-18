@@ -1,6 +1,7 @@
 # SonnyDagouneau_2_19022021
 
 # OpenClassroom P2 : Transformez votre CV en site web
+ [Mon site](https://sonnik-pixel.github.io/SonnyDagouneau_2_19022021/)
 
 # Fonctionnalités
 
