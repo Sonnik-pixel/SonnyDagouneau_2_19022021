@@ -2,19 +2,6 @@
 
 # OpenClassroom P2 : Transformez votre CV en site web
 
-# Convention Git
-
-* 🌌 Initialisation
-* 🎱 Revert 
-* 📦 Build
-* 🎓 Doc
-* 💎 Feature
-* 🚑 Fix 
-* 🚀 Optimisation
-* 🦄 Refactoring
-* 🌈 Style
-* 🏅 Test
-
 # Fonctionnalités
 
 * Les usagers pourront rechercher des hébergements dans la ville de leur choix.<br/>Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager.<br />En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.
