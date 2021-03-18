@@ -1,7 +1,7 @@
 # SonnyDagouneau_2_19022021
 
 # OpenClassroom P2 : Transformez votre CV en site web
- [Mon site](https://sonnik-pixel.github.io/SonnyDagouneau_2_19022021/)
+ [Mon GitHub Pages](https://sonnik-pixel.github.io/SonnyDagouneau_2_19022021/)
 
 # Fonctionnalités
 
@@ -27,7 +27,7 @@
 * Pense à séparer le HTML et le CSS et à organiser ton dossier de rendu.
 * N’oublie pas de versionner ton code avec Git, et ce dès les premières lignes de code.<br />C’est hyper important quand on travaille en équipe.<br />Nous on utilise GitKraken comme client Git, c'est plus sympa qu'une console, mais tu fais comme tu veux.<br />Ensuite il faut que tu déploies la page sur GitHub Pages ou GitLab Pages comme tu préfères.
 
-# Maquettes.
+# Maquettes
 
 ## Desktop
 ![Desktop](img/maquette/desktop.png "Aperçut desktop")
