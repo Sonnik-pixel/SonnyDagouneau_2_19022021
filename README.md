@@ -32,4 +32,4 @@
 ![Desktop](img/maquette/desktop.png "Aperçut desktop")
 
 ## Mobile
-![Mobile](img/maquette.mobile.png "Aperçut mobile")
+![Mobile](img/maquette/mobile.png "Aperçut mobile")
