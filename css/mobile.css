@@ -1,82 +1,84 @@
-    header ul {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100vw;
-      /*margin: auto;*/
-      font-size: 1.2rem;
-      padding-top: 1rem;
-    }
+/*ajout de breakpoint à 480 hérite pour le moment si en dessous de 1140 regarde min max..*/
+@media (min-width:480px) {
+  header ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    /*margin: auto;*/
+    font-size: 1.2rem;
+    padding-top: 1rem;
+  }
 
-    .nav1 {
-      /*background-color: blue;*/
-      padding-left: 1em;
-      width: 47vw;
-      display: flex;
-    }
+  .nav1 {
+    /*background-color: blue;*/
+    padding-left: 1em;
+    width: 47vw;
+    display: flex;
+  }
 
-    .nav2 {
-      /*background-color: green;*/
-      width: 50vw;
-      display: flex;
-      justify-content: center;
-      padding-top: 1.6rem;
-      border-bottom: 4px solid #F2F2F2;
-      padding-bottom: 1.1rem;
-      order: 10;
-    }
+  .nav2 {
+    /*background-color: green;*/
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.6rem;
+    border-bottom: 4px solid #F2F2F2;
+    padding-bottom: 1.1rem;
+    order: 10;
+  }
 
-    .nav3 {
-      /*background-color: yellow;*/
-      width: 50vw;
-      display: flex;
-      justify-content: center;
-      padding-top: 1.6rem;
-      border-bottom: 4px solid #F2F2F2;
-      padding-bottom: 1.1rem;
-      order: 20;
-    }
+  .nav3 {
+    /*background-color: yellow;*/
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.6rem;
+    border-bottom: 4px solid #F2F2F2;
+    padding-bottom: 1.1rem;
+    order: 20;
+  }
 
-    .nav4 {
-      /*background-color: brown;*/
-      width: 47vw;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      font-weight: bold;
-    }
+  .nav4 {
+    /*background-color: brown;*/
+    width: 47vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+  }
 
-    a {
-      text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+  }
 
-    .nav4 a {
-      color: #0065FC;
-    }
+  .nav4 a {
+    color: #0065FC;
+  }
 
-    .nav2 a {
-      color: black;
-    }
+  .nav2 a {
+    color: black;
+  }
 
-    .nav2 a:hover {
-      color: #0065FC;
+  .nav2 a:hover {
+    color: #0065FC;
 
-    }
+  }
 
-    .nav2:hover {
-      border-bottom: 4px solid #0065FC;
-      padding-bottom: 1.1rem;
-    }
+  .nav2:hover {
+    border-bottom: 4px solid #0065FC;
+    padding-bottom: 1.1rem;
+  }
 
-    .nav3 a {
-      color: black;
-    }
+  .nav3 a {
+    color: black;
+  }
 
-    .nav3 a:hover {
-      color: #0065FC;
-    }
+  .nav3 a:hover {
+    color: #0065FC;
+  }
 
-    .nav3:hover {
-      border-bottom: 4px solid #0065FC;
-      padding-bottom: 1.1rem;
-    }
-    
+  .nav3:hover {
+    border-bottom: 4px solid #0065FC;
+    padding-bottom: 1.1rem;
+  }
+}
