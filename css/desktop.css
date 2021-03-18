@@ -38,6 +38,7 @@
           border-bottom: none;
           border-top: 2px solid #ffffff;
           padding-top: 3rem;
+          width: 60vw;
       }
 
       .nav2:hover {
