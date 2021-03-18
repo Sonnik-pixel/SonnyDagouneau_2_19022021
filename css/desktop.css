@@ -13,7 +13,7 @@
       .nav4 {
           order: 10;
           padding-right: 4rem;
-          padding-top: 2rem;
+          padding-top: 1.5rem;
       }
 
       .nav1 {
@@ -43,5 +43,4 @@
           border-bottom: none;
           border-color: #0065FC;
       }
-
-/*voir avec Maeva les couleurs hover et le 16px au top d'ou venait-il? faire tout redescendre*/
+      /*voir avec Maeva les couleurs hover et le 16px au top d'ou venait-il? faire tout redescendre*/
