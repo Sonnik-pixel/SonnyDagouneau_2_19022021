@@ -14,6 +14,7 @@
           order: 10;
           padding-right: 4rem;
           padding-top: 1.5rem;
+          width: 40vw;
       }
 
       .nav1 {
@@ -44,3 +45,7 @@
           border-color: #0065FC;
       }
       /*voir avec Maeva les couleurs hover et le 16px au top d'ou venait-il? faire tout redescendre*/
+
+      body {
+        background-color: white;
+    }
