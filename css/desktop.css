@@ -5,7 +5,6 @@
       /**************************/
 
       header ul {
-          display: flex;
           flex-wrap: nowrap;
           padding-top: 0;
       }

@@ -1,1 +1,10 @@
 /*feuille par défaut, sert à réunir les styles en commun, font, flex etc..pour éviter de surcharger car si modif sur mobile va hésiter sur desktop*/
+header ul {
+    display: flex;
+}
+/*typo*/
+/*propriété générique, couleur,*/
+/*bouton*/
+
+.fas
+/*hauteuyr largeur couleur de mes icones*/
