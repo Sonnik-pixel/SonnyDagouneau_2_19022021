@@ -1,90 +1,98 @@
 /*ajout de breakpoint à 480 hérite pour le moment si en dessous de 1140 regarde min max..*/
 /*min-width 480 si la largeur est supérieure, 481... j'applique cette feuille css en dessous je n'applique pas 479...*/
 /*max-width 480 si la largeur est inférieure,479... japplique cette feuille css au dessus je n'applique pas 481...*/
-  header ul {
-    flex-wrap: wrap;
-    width: 100vw;
-    /*margin: auto;*/
-    font-size: 1.2rem;
-    padding-top: 1rem;
-  }
 
-  .nav1 {
-    /*background-color: blue;*/
-    padding-left: 1em;
-    width: 47vw;
-    display: flex;
-  }
+/* HEADER ET NAVBAR */
 
-  .nav2 {
-    /*background-color: green;*/
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    padding-top: 1.6rem;
-    border-bottom: 4px solid #F2F2F2;
-    padding-bottom: 1.1rem;
-    order: 10;
-  }
+header ul {
+  flex-wrap: wrap;
+  width: 100vw;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
 
-  .nav3 {
-    /*background-color: yellow;*/
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    padding-top: 1.6rem;
-    border-bottom: 4px solid #F2F2F2;
-    padding-bottom: 1.1rem;
-    order: 20;
-  }
+.nav1 {
+  padding-left: 1em;
+  width: 47vw;
+  display: flex;
+}
 
-  .nav4 {
-    /*background-color: brown;*/
-    width: 47vw;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-weight: bold;
-  }
+.nav2 {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.6rem;
+  border-bottom: 4px solid #F2F2F2;
+  padding-bottom: 1.1rem;
+  order: 10;
+}
 
-  a {
-    text-decoration: none;
-  }
+.nav3 {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.6rem;
+  border-bottom: 4px solid #F2F2F2;
+  padding-bottom: 1.1rem;
+  order: 20;
+}
 
-  .nav4 a {
-    color: #0065FC;
-  }
+.nav4 {
+  width: 47vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+}
 
-  .nav2 a {
-    color: black;
-  }
+a {
+  text-decoration: none;
+}
 
-  .nav2 a:hover {
-    color: #0065FC;
+.nav4 a {
+  color: #0065FC;
+}
 
-  }
+.nav2 a {
+  color: black;
+}
 
-  .nav2:hover {
-    border-bottom: 4px solid #0065FC;
-    padding-bottom: 1.1rem;
-  }
+.nav2 a:hover {
+  color: #0065FC;
 
-  .nav3 a {
-    color: black;
-  }
+}
 
-  .nav3 a:hover {
-    color: #0065FC;
-  }
+.nav2:hover {
+  border-bottom: 4px solid #0065FC;
+  padding-bottom: 1.1rem;
+}
 
-  .nav3:hover {
-    border-bottom: 4px solid #0065FC;
-    padding-bottom: 1.1rem;
-  }
+.nav3 a {
+  color: black;
+}
 
-/*MAIN*/
+.nav3 a:hover {
+  color: #0065FC;
+}
 
-.wrapper-icone {
+.nav3:hover {
+  border-bottom: 4px solid #0065FC;
+  padding-bottom: 1.1rem;
+}
+
+/*HEADER MAIN*/
+
+header h1 {
+  font-size: 1.7rem;
+  margin: 2.5rem 0 0 2rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 1.2rem 0 0 2rem;
+}
+
+/*.wrapper-icone {
   width: 2rem;
   height: 2rem;
   background-color: red;
@@ -96,4 +104,4 @@
 
 .fa-info {
   color: #0065FC;
-}
+}*/

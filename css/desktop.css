@@ -1,8 +1,6 @@
   @media (min-width:1140px) {
 
-      /**************************/
-      /****** HEADER NAVBAR ******/
-      /**************************/
+      /*HEADER NAVBAR*/
 
       header ul {
           flex-wrap: nowrap;
@@ -44,3 +42,5 @@
           border-bottom: none;
           border-color: #0065FC;
       }
+    }
+      /*HEADER MAIN*/
