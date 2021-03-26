@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" href="css/tablette.css">
-    <link rel="stylesheet" href="css/desktop.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/tablette.css">
+    <link rel="stylesheet" href="assets/css/desktop.css">
     <title>Reservia</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/618c5c7058.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <li class="nav1"><a href="#"><img src="img/logo/Reservia.svg" alt="Logo" /></a></li>
+                <li class="nav1"><a href="#"><img src="assets/img/logo/Reservia.svg" alt="Logo" /></a></li>
                 <li class="nav2"><a href="#hebergements">Hébergements</a></li>
                 <li class="nav3"><a href="#activites">Activités</a></li>
                 <li class="nav4"><a href="#">S'inscrire</a></li>
             </ul>
-       </nav>
+        </nav>
     </header>
     <main>
-        <header>
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
-        </header>
+        <section class="search">
+            <header>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </header>
+            <form class="search-bar">
+                <div class="border-search-bar">
+                    <input type="search" id="maRecherche" name="q" placeholder="Marseille, France"
+                        aria-label="Rechercher des logements sur le site">
+                    <button>Rechercher</button>
+                </div>
+            </form>
+        </section>
         <!--<div class="wrapper-icone"><i class="fas fa-info"></i></div>-->
     </main>
 </body>
+
 </html>
 <!--
 Tester W3C HTML & CSS

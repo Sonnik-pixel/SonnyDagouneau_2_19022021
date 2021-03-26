@@ -80,18 +80,30 @@ a {
   padding-bottom: 1.1rem;
 }
 
-/*HEADER MAIN*/
+/*MAIN SECTION SEARCH*/
 
-header h1 {
+.search h1 {
   font-size: 1.7rem;
   margin: 2.5rem 0 0 2rem;
 }
 
-header p {
+.search p {
   font-size: 1.2rem;
   margin: 1.2rem 0 0 2rem;
 }
 
+.search-bar {
+  /*background-color: red;*/
+  padding: 2.5rem 0 2.5rem 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  background-color: red;
+  padding: 1rem 6rem 1rem 1rem;
+
+}
 /*.wrapper-icone {
   width: 2rem;
   height: 2rem;
