@@ -17,7 +17,6 @@
       .nav1 {
           width: 400vw;
           padding-top: 3.2rem;
-          padding-left: 2.7rem;
       }
 
       .nav3 {
@@ -42,5 +41,21 @@
           border-bottom: none;
           border-color: #0065FC;
       }
-    }
+
       /*HEADER MAIN*/
+
+      .search-button:after {
+          content: 'Rechercher';
+      }
+      .search-button {
+        border-radius: 0 1rem 1rem 0;
+        background-color: #0065FC;
+        width: 10rem;
+        color: white;
+        font-weight: bold;
+    }
+
+      .fa-search {
+          display: none;
+      }
+    }

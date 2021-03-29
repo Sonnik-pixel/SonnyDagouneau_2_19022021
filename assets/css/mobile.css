@@ -1,122 +1,145 @@
 /*ajout de breakpoint à 480 hérite pour le moment si en dessous de 1140 regarde min max..*/
-/*min-width 480 si la largeur est supérieure, 481... j'applique cette feuille css en dessous je n'applique pas 479...*/
-/*max-width 480 si la largeur est inférieure,479... japplique cette feuille css au dessus je n'applique pas 481...*/
+/*min-width 480 si la largeur est supérieure, 481... j'applique cette feuille css*/
+/*max-width 480 si la largeur est inférieure,479... japplique cette feuille css */
 
 /* HEADER ET NAVBAR */
+@media (min-width:320px) {
+  header ul {
+    flex-wrap: wrap;
+    width: 100vw;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+  }
 
-header ul {
-  flex-wrap: wrap;
-  width: 100vw;
-  font-size: 1.2rem;
-  padding-top: 1rem;
+  .nav1 {
+    padding-left: 1em;
+    width: 47vw;
+    display: flex;
+  }
+
+  .nav2 {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.6rem;
+    border-bottom: 4px solid #F2F2F2;
+    padding-bottom: 1.1rem;
+    order: 10;
+  }
+
+  .nav3 {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.6rem;
+    border-bottom: 4px solid #F2F2F2;
+    padding-bottom: 1.1rem;
+    order: 20;
+  }
+
+  .nav4 {
+    width: 47vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .nav4 a {
+    color: #0065FC;
+  }
+
+  .nav2 a {
+    color: black;
+  }
+
+  .nav2 a:hover {
+    color: #0065FC;
+
+  }
+
+  .nav2:hover {
+    border-bottom: 4px solid #0065FC;
+    padding-bottom: 1.1rem;
+  }
+
+  .nav3 a {
+    color: black;
+  }
+
+  .nav3 a:hover {
+    color: #0065FC;
+  }
+
+  .nav3:hover {
+    border-bottom: 4px solid #0065FC;
+    padding-bottom: 1.1rem;
+  }
+
+  /*MAIN SECTION SEARCH*/
+
+  .search h1 {
+    font-size: 1.5rem;
+    margin: 2.5rem 0 0 1.2rem;
+  }
+
+  .search p {
+    font-size: 1.2rem;
+    margin: 0.8rem 0 0 1.2rem;
+  }
+
+  .border-search-bar {
+    display: flex;
+    width: calc(100% - 1.75rem);
+    max-width: 35rem;
+    border: 2px solid red;
+    border-radius: 1rem;  
+  }
+
+  .search-bar {
+    background-color: teal;
+    padding: 2.5rem 0 2.5rem 1.5rem;
+  }
+
+  input {
+    padding: 1rem 6rem 1rem 1rem;
+    border: 1px solid #F2F2F2;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 100%;
+    
+  }
+
+  .search-button {
+    background-color: #0065FC;
+    min-width: 3.6rem;
+    width: auto;
+    height: 3.6rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fa-search {
+    color: white;
+  }
+
+  .map-button {
+    background-color: #F2F2F2;
+    width: 5rem;
+    height: 3.6rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-.nav1 {
-  padding-left: 1em;
-  width: 47vw;
-  display: flex;
-}
-
-.nav2 {
-  width: 50vw;
-  display: flex;
-  justify-content: center;
-  padding-top: 1.6rem;
-  border-bottom: 4px solid #F2F2F2;
-  padding-bottom: 1.1rem;
-  order: 10;
-}
-
-.nav3 {
-  width: 50vw;
-  display: flex;
-  justify-content: center;
-  padding-top: 1.6rem;
-  border-bottom: 4px solid #F2F2F2;
-  padding-bottom: 1.1rem;
-  order: 20;
-}
-
-.nav4 {
-  width: 47vw;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-weight: bold;
-}
-
-a {
-  text-decoration: none;
-}
-
-.nav4 a {
-  color: #0065FC;
-}
-
-.nav2 a {
-  color: black;
-}
-
-.nav2 a:hover {
-  color: #0065FC;
-
-}
-
-.nav2:hover {
-  border-bottom: 4px solid #0065FC;
-  padding-bottom: 1.1rem;
-}
-
-.nav3 a {
-  color: black;
-}
-
-.nav3 a:hover {
-  color: #0065FC;
-}
-
-.nav3:hover {
-  border-bottom: 4px solid #0065FC;
-  padding-bottom: 1.1rem;
-}
-
-/*MAIN SECTION SEARCH*/
-
-.search h1 {
-  font-size: 1.5rem;
-  margin: 2.5rem 0 0 1.2rem;
-}
-
-.search p {
-  font-size: 1.2rem;
-  margin: 0.8rem 0 0 1.2rem;
-}
-
-.search-bar {
-  background-color: yellow;
-  padding: 2.5rem 0 2.5rem 4rem;
-}
-
-input {
-  background-color: red;
-  padding: 1rem 6rem 1rem 1rem;
-  
-}
-
-.search-button {
-  background-color:#0065FC;
-  width: 3.6rem;
-  height: 3.6rem;
-  border-radius: 15px;
-}
-
-.fa-search {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding
-}
 /*.wrapper-icone {
   width: 2rem;
   height: 2rem;
