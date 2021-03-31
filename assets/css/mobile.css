@@ -1,9 +1,7 @@
-/*ajout de breakpoint à 480 hérite pour le moment si en dessous de 1140 regarde min max..*/
-/*min-width 480 si la largeur est supérieure, 481... j'applique cette feuille css*/
-/*max-width 480 si la largeur est inférieure,479... japplique cette feuille css */
-
-/* HEADER ET NAVBAR */
 @media (min-width:320px) {
+
+  /* HEADER NAVBAR */
+
   header ul {
     flex-wrap: wrap;
     width: 100vw;
@@ -45,10 +43,6 @@
     font-weight: 700;
   }
 
-  a {
-    text-decoration: none;
-  }
-
   .nav4 a {
     color: #0065FC;
   }
@@ -80,7 +74,7 @@
     padding-bottom: 1.1rem;
   }
 
-  /*MAIN SECTION SEARCH*/
+  /*SEARCH*/
 
   .search h1 {
     font-size: 1.5rem;
@@ -98,8 +92,6 @@
 
   .border-search-bar {
     display: flex;
-    /*width: calc(100% - 1.75rem);*/
-    /*padding: 0 1rem 0 1rem;*/
     max-width: 30rem;
     border: 1px solid #F2F2F2;
     border-radius: 1rem;
@@ -107,7 +99,6 @@
 
   input {
     padding: 1rem 6rem 1rem 1rem;
-    /*border: 1px solid #F2F2F2;*/
     font-size: 1.1rem;
     font-weight: bold;
     width: 100%;
@@ -121,13 +112,14 @@
   .search-button {
     background-color: #0065FC;
     min-width: 3.6rem;
-    /*width: auto;*/
     height: 3.6rem;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+  /*Ne pas afficher la loupe en mobile*/
 
   .search-button:after {
     content: '';
@@ -147,33 +139,93 @@
     align-items: center;
   }
 
-  .container-filters {
-    /*pour center margin des deux côtés*/
-    margin: 0 1.2rem;
-  }
+  /*FILTERS*/
 
   .filter-title {
-    width: 100vw;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+    width: 100vw;
   }
 
-  .container-filters .filters {
+  .filters {
     display: flex;
     flex-wrap: wrap;
+    width: 90vw;
+  }
+
+  .container-filters {
+    margin: 0 1.5rem;
+    width: 100vw;
+  }
+
+  .filters li a {
+    display: flex;
+    height: 3rem;
+    margin-bottom: 1.7rem;
+    margin-right: 1.5rem;
+    border: 3px solid #F2F2F2;
+    border-radius: 3rem;
+  }
+
+  .wrapper-icone {
+    background-color: #DEEBFF;
+    border-radius: 3rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*c'est sans doute pas une bonne pratique, à vérifier...*/
+    margin-top: -3px;
+    margin-left: -2px
+  }
+
+  .wrapper-filtre {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+    color: black;
+  }
+
+  .filters li a:hover {
+    background-color: #DEEBFF;
+    border-radius: 3rem;
+  }
+
+  .filters i {
+    color: #0065FC;
+  }
+
+  /*INFO*/
+
+  .fa-info {
+    color: #0065FC;
+    font-size: 0.8rem;
+  }
+
+  .container-info {
+    display: flex;
+    padding-left: 1.5rem;
+  }
+
+  .wrapper-info {
+    border: solid 2px #F2F2F2;
+    min-width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  aside {
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
   }
 }
-
-/*.wrapper-icone {
-  width: 2rem;
-  height: 2rem;
-  background-color: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 1rem;
-}
-
-.fa-info {
-  color: #0065FC;
-}*/

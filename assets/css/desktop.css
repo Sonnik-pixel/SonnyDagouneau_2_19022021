@@ -42,7 +42,7 @@
           border-color: #0065FC;
       }
 
-      /*HEADER MAIN*/
+      /*SEARCH*/
 
       .search-button:after {
           content: 'Rechercher';
@@ -59,4 +59,12 @@
       .fa-search {
           display: none;
       }
+
+      /*FILTERS*/
+
+      .filter-title {
+          width: 5vw;
+          padding: 1rem 0rem 0 0;
+      }
   }
+  
