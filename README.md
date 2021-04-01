@@ -30,7 +30,7 @@
 # Maquettes
 
 ## Desktop
-![Desktop](img/maquette/desktop.png "Aperçut desktop")
+![Desktop](assets/img/maquette/desktop.png "Aperçut desktop")
 
 ## Mobile
-![Mobile](img/maquette/mobile.png "Aperçut mobile")
+![Mobile](assets/img/maquette/mobile.png "Aperçut mobile")
