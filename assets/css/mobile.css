@@ -79,12 +79,12 @@
 
   /*SEARCH*/
 
-  .search h1 {
+  #searchSection h1 {
     font-size: 1.5rem;
     margin: 2.5rem 0 0 1.2rem;
   }
 
-  .search p {
+  #searchSection p {
     font-size: 1.2rem;
     margin: 0.8rem 0 0 1.2rem;
   }
@@ -162,7 +162,7 @@
   }
 
   .container-filters {
-    margin: 0 1.5rem;
+    padding: 0 1.5rem;
     width: 100vw;
   }
 
