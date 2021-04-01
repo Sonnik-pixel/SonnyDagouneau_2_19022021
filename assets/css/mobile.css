@@ -8,13 +8,13 @@
     padding-top: 1rem;
   }
 
-  .nav1 {
+  .navUn {
     padding-left: 1em;
     width: 47vw;
     display: flex;
   }
 
-  .nav2 {
+  .navDeux {
     width: 50vw;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
     order: 10;
   }
 
-  .nav3 {
+  .navTrois {
     width: 50vw;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@
     order: 20;
   }
 
-  .nav4 {
+  .navQuatre {
     width: 47vw;
     display: flex;
     justify-content: flex-end;
@@ -42,33 +42,33 @@
     font-weight: 700;
   }
 
-  .nav4 a {
+  .navQuatre a {
     color: #0065FC;
   }
 
-  .nav2 a {
+  .navDeux a {
     color: black;
   }
 
-  .nav2 a:hover {
+  .navDeux a:hover {
     color: #0065FC;
 
   }
 
-  .nav2:hover {
+  .navDeux:hover {
     border-bottom: 4px solid #0065FC;
     padding-bottom: 1.1rem;
   }
 
-  .nav3 a {
+  .navTrois a {
     color: black;
   }
 
-  .nav3 a:hover {
+  .navTrois a:hover {
     color: #0065FC;
   }
 
-  .nav3:hover {
+  .navTrois:hover {
     border-bottom: 4px solid #0065FC;
     padding-bottom: 1.1rem;
   }
@@ -89,11 +89,11 @@
     margin: 0.8rem 0 0 1.2rem;
   }
 
-  .search-bar {
+  #searchBar {
     padding: 2.8rem 1.5rem;
   }
 
-  .border-search-bar {
+  #borderSearchBar {
     display: flex;
     max-width: 30rem;
     border: 1px solid #F2F2F2;
@@ -116,7 +116,7 @@
     font-size: 1.2rem;
   }
 
-  .search-button {
+  #searchButton {
     background-color: #0065FC;
     min-width: 3.6rem;
     height: 3.6rem;
@@ -128,7 +128,7 @@
 
   /*Ne pas afficher la loupe en mobile*/
 
-  .search-button:after {
+  #searchButton:after {
     content: '';
   }
 
@@ -136,7 +136,7 @@
     color: white;
   }
 
-  .map-button {
+  #mapButton {
     background-color: #F2F2F2;
     width: 5rem;
     height: 3.6rem;
@@ -148,25 +148,25 @@
 
   /*FILTERS*/
 
-  .filter-title {
+  #filterTitle {
     font-weight: bold;
     font-size: 1.3rem;
     padding-bottom: 1.5rem;
     width: 100vw;
   }
 
-  .filters {
+  #categoryFilters {
     display: flex;
     flex-wrap: wrap;
     width: 90vw;
   }
 
-  .container-filters {
+  #containerFilters {
     padding: 0 1.5rem;
     width: 100vw;
   }
 
-  .filters li a {
+  #categoryFilters li a {
     display: flex;
     height: 3rem;
     margin-bottom: 1.7rem;
@@ -175,7 +175,7 @@
     border-radius: 3rem;
   }
 
-  .wrapper-icone {
+  .wrapperIcone {
     background-color: #DEEBFF;
     border-radius: 3rem;
     width: 3rem;
@@ -183,12 +183,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /*c'est sans doute pas une bonne pratique, à vérifier...*/
     margin-top: -3px;
     margin-left: -2px;
   }
 
-  .wrapper-filtre {
+  .wrapperFiltre {
     font-size: 1.2rem;
     font-weight: bold;
     display: flex;
@@ -199,12 +198,12 @@
     color: black;
   }
 
-  .filters li a:hover {
+  #categoryFilters li a:hover {
     background-color: #DEEBFF;
     border-radius: 3rem;
   }
 
-  .filters i {
+  #categoryFilters i {
     color: #0065FC;
   }
 
@@ -215,12 +214,12 @@
     font-size: 0.8rem;
   }
 
-  .container-info {
+  #containerInfo {
     display: flex;
     padding-left: 1.5rem;
   }
 
-  .wrapper-info {
+  #wrapperInfo {
     border: solid 2px #F2F2F2;
     min-width: 2rem;
     height: 2rem;

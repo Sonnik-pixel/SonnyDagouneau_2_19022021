@@ -7,48 +7,48 @@
           padding-top: 0;
       }
 
-      .nav4 {
+      .navQuatre {
           order: 50;
           padding-right: 4rem;
           padding-top: 1.5rem;
           width: 40vw;
       }
 
-      .nav1 {
+      .navUn {
           width: 400vw;
           padding-top: 3.2rem;
       }
 
-      .nav3 {
+      .navTrois {
           border-bottom: none;
           border-top: 2px solid #ffffff;
           padding-top: 3rem;
       }
 
-      .nav3:hover {
+      .navTrois:hover {
           border-bottom: none;
           border-color: #0065FC;
       }
 
-      .nav2 {
+      .navDeux {
           border-bottom: none;
           border-top: 2px solid #ffffff;
           padding-top: 3rem;
           width: 60vw;
       }
 
-      .nav2:hover {
+      .navDeux:hover {
           border-bottom: none;
           border-color: #0065FC;
       }
 
       /*SEARCH*/
 
-      .search-button:after {
+      #searchButton:after {
           content: 'Rechercher';
       }
 
-      .search-button {
+      #searchButton {
           border-radius: 0 1rem 1rem 0;
           background-color: #0065FC;
           width: 10rem;
@@ -62,7 +62,7 @@
 
       /*FILTERS*/
 
-      .filter-title {
+      #filterTitle {
           width: 5vw;
           padding: 1rem 0rem 0 0;
       }
