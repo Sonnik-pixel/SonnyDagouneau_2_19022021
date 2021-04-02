@@ -200,7 +200,7 @@
 
   #categoryFilters li a:hover {
     background-color: #DEEBFF;
-    border-radius: 3rem;
+    transition-duration: 0.5s;
   }
 
   #categoryFilters i {
@@ -229,8 +229,55 @@
     align-items: center;
   }
 
-  aside {
+  #asideFilter {
     padding-top: 0.2rem;
     padding-left: 1rem;
     font-size: 1.2rem;
   }
+
+  /*MOST POPULAR*/
+
+  #mostPopular {
+    background-color: #F2F2F2;
+    margin-top: 2.5rem;
+    padding: 0 1.5rem;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #mostPopular header {
+    display: flex;
+    padding: 2rem 0;
+  }
+
+  #wrapperIcone {
+    background-color: red;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #wrapperIcone i {
+    background-color: royalblue;
+    font-size: 1.7rem;
+  }
+
+  #mostPopular figure {
+    display: flex;
+    background-color: royalblue;
+    width: 90vw;
+    height: 8.7rem;;
+    border-radius: 1rem;
+  }
+
+  img {
+    width: 9.5rem;
+    height: 8.5rem;
+    border-radius: 1rem 0 0 1rem;
+    padding-top: 0.3rem;
+    padding-left: 0.3rem;
+  }
+
