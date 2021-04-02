@@ -245,6 +245,7 @@
     height: 80vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
   }
 
   #mostPopular header {
@@ -253,7 +254,7 @@
   }
 
   #wrapperIcone {
-    background-color: red;
+    /*background-color: red;*/
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
@@ -261,19 +262,20 @@
   }
 
   #wrapperIcone i {
-    background-color: royalblue;
+    /*background-color: royalblue;*/
     font-size: 1.7rem;
   }
 
   #mostPopular figure {
     display: flex;
-    background-color: royalblue;
+    /*background-color: royalblue;*/
+    background-color: white;
     width: 90vw;
-    height: 8.7rem;;
+    height: 8.8rem;;
     border-radius: 1rem;
   }
 
-  img {
+  .imgPopular {
     width: 9.5rem;
     height: 8.5rem;
     border-radius: 1rem 0 0 1rem;
@@ -281,3 +283,21 @@
     padding-left: 0.3rem;
   }
 
+  .hostelInfo {
+    padding: 1rem 1.5rem;
+  }
+
+  figcaption {
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+
+  .starPopular {
+    padding-top: 2rem;
+  }
+
+  .fa-star {
+    font-size: 0.9rem;
+    color: #0065FC;
+  }
