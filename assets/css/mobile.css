@@ -230,8 +230,7 @@
   }
 
   #asideFilter {
-    padding-top: 0.2rem;
-    padding-left: 1rem;
+    padding: 0.2rem 0 2rem 1rem;
     font-size: 1.2rem;
   }
 
@@ -242,50 +241,65 @@
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-}
+  }
 
-.mostPopular header {
+  .mostPopular header {
     display: flex;
     justify-content: space-between;
-}
+  }
 
-p {
-    /*width: 100vw;*/
-}
+  .mostPopular header p {
+    padding: 2rem 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
 
-.fa-chart-line {
+  .fa-chart-line {
     display: flex;
     align-self: center;
-}
+    font-size: 2rem;
+  }
 
-.mostPopular figure {
+  .mostPopular figure {
     background-color: white;
     display: flex;
     margin: 0;
     margin-bottom: 0.9rem;
     border-radius: 1rem;
-}
+  }
 
-.imgPopular {
+  .imgPopular {
     width: 10rem;
+    min-width: 10rem;
     height: 10rem;
     border-radius: 1rem 0 0 1rem;
     padding: 0.5rem 0 0.5rem 0.5rem;
-}
+  }
 
-.wrapperFig {
+  .wrapperFig {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
+    /*position: relative;*/
+    padding-left: 1rem;
 
-}
+  }
 
-.fa-star {
-   color: blue;
-   font-size: 0.8rem;
-}
+  .fa-star {
+    color: #0065FC;
+    font-size: 0.8rem;
+  }
 
-figcaption {
+  figcaption {
     font-weight: bold;
-}
+    padding-bottom: 1rem;
+  }
+
+  .starPopular {
+    /*position: absolute;*/
+    /*bottom: 0.1rem;*/
+  }
+
+  .disabled {
+    color: #F2F2F2;
+  }
