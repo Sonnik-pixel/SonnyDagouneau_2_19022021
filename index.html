@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/tablette.css">
+    <link rel="stylesheet" href="assets/css/desktop.css">
+    <title>Reservia</title>
+    <script src="https://kit.fontawesome.com/618c5c7058.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="navUn"><a href="#"><img src="assets/img/logo/Reservia.svg" alt="Logo" /></a></li>
+                <li class="navQuatre"><a href="#">S'inscrire</a></li>
+                <li class="navDeux"><a href="#hebergements">Hébergements</a></li>
+                <li class="navTrois"><a href="#activites">Activités</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="searchSection">
+            <header>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </header>
+            <form id="searchBar">
+                <div id="borderSearchBar">
+                    <div id="mapButton">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <input type="search" id="maRecherche" name="q" placeholder="Marseille, France"
+                        aria-label="Rechercher des logements sur le site">
+                    <div id="searchButton">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </form>
+            <div id="containerFilters">
+                <ul id="categoryFilters">
+                    <li id="filterTitle">Filtres</li>
+                    <li><a href="#">
+                            <div class="wrapperIcone"><i class="fas fa-money-bill-wave"></i></div>
+                            <div class="wrapperFiltre">Economique</div>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="wrapperIcone"><i class="fas fa-child"></i></div>
+                            <div class="wrapperFiltre">Familial</div>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="wrapperIcone"><i class="fas fa-heart"></i></div>
+                            <div class="wrapperFiltre">Romantique</div>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="wrapperIcone"><i class="fas fa-dog"></i></div>
+                            <div class="wrapperFiltre">Animaux autorisés</div>
+                        </a></li>
+                </ul>
+            </div>
+            <div id="containerInfo">
+                <div id="wrapperInfo"><i class="fas fa-info"></i></div>
+                <aside id="asideFilter">Plus de 500 logements sont disponibles dans cette ville</aside>
+            </div>
+        </section>
+        <section id="hostingSection">
+            <div class="mostPopular">
+                <header>
+                    <p>Les plus populaires</p>
+                    <i class="fas fa-chart-line"></i>
+                </header>
+                <figure>
+                    <img class="imgPopular" src="./assets/img/hebergements/popular1.jpg" alt="Hôtel le soleil du matin">
+                    <div class="wrapperFig">
+                        <figcaption>Hôtel le soleil du matin</figcaption>
+                        <p>Nuit à partir de 128€</p>
+                        <div class="starPopular">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </figure>
+                <figure>
+                    <img class="imgPopular" src="./assets/img/hebergements/popular2.jpg"
+                        alt="Au coeur de l'eau Chambres d'hôtes">
+                    <div class="wrapperFig">
+                        <figcaption>Au coeur de l'eau Chambres d'hôtes</figcaption>
+                        <p>Nuit à partir de 71€</p>
+                        <div class="starPopular">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star disabled"></i>
+                        </div>
+                    </div>
+                </figure>
+                <figure>
+                    <img class="imgPopular" src="./assets/img/hebergements/popular3.jpg" alt="Hôtel tout Bleu et Blanc">
+                    <div class="wrapperFig">
+                        <figcaption>Hôtel tout Bleu et Blanc</figcaption>
+                        <p>Nuit à partir de 68€</p>
+                        <div class="starPopular">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star disabled"></i>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+        </section>
+        <section id="activitySection">
+        </section>
+    </main>
+    <footer id="footerSection">
+    </footer>
+</body>
+
+</html>

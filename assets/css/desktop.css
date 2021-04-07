@@ -1,0 +1,82 @@
+  @media (min-width:1140px) {
+
+      /*HEADER NAVBAR*/
+
+      header ul {
+          flex-wrap: nowrap;
+          padding-top: 0;
+      }
+
+      .navQuatre {
+          order: 50;
+          padding-right: 4rem;
+          padding-top: 1.5rem;
+          width: 40vw;
+      }
+
+      .navUn {
+          width: 400vw;
+          padding-top: 3.2rem;
+      }
+
+      .navTrois {
+          border-bottom: none;
+          border-top: 2px solid #ffffff;
+          padding-top: 3rem;
+      }
+
+      .navTrois:hover {
+          border-bottom: none;
+          border-color: #0065FC;
+      }
+
+      .navDeux {
+          border-bottom: none;
+          border-top: 2px solid #ffffff;
+          padding-top: 3rem;
+          width: 60vw;
+      }
+
+      .navDeux:hover {
+          border-bottom: none;
+          border-color: #0065FC;
+      }
+
+      /*SEARCH*/
+
+      #searchButton:after {
+          content: 'Rechercher';
+      }
+
+      #searchButton {
+          border-radius: 0 1rem 1rem 0;
+          background-color: #0065FC;
+          width: 10rem;
+          color: white;
+          font-weight: bold;
+      }
+
+      .fa-search {
+          display: none;
+      }
+
+      /*FILTERS*/
+
+      #filterTitle {
+          width: 5vw;
+          padding: 1rem 0rem 0 0;
+      }
+
+      /*MOST POPULAR*/
+
+      .mostPopular {
+          max-width: 30rem;
+          border-radius: 1rem;
+      }
+
+      #hostingSection {
+          display: flex;
+          justify-content: flex-end;
+          padding-right: 1rem;
+      }
+    }
