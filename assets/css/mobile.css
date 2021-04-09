@@ -1,3 +1,88 @@
-body{
-    font-family: 'Raleway', sans-serif;
+/* Appareils avec une résolution de 768 pixels ou moins */
+
+@media only screen and (max-width: 768px) {
+    * {
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+        padding: 0;
+    } 
+
+    header ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+
+    header li {
+        font-size: 1.2rem;
+    }
+
+    header li a {
+        text-decoration: none;
+    }
+
+    .navUn {
+        width: 50%;
+
+    }
+
+    .navDeux {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+    }
+
+    .navTrois {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    .navQuatre {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    .navUn img {
+        padding: 1rem 0 1rem 1rem;
+    }
+
+    .navDeux a {
+        color: #0065FC;
+        font-weight: bold;
+        padding: 1rem;
+    }
+
+    .navTrois a {
+        color: black;
+    }
+
+    .navTrois a:hover {
+        color: #0065FC;
+    }
+
+    .navQuatre a {
+        color: black;
+    }
+
+    .navQuatre a:hover {
+        color: #0065FC;
+    }
+
+    .navTrois:hover {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    .navQuatre:hover {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+    }
 }
