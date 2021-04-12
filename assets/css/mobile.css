@@ -245,9 +245,64 @@
       #popularSection header {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 2rem;
       }
 
       #popularSection header i {
         font-size: 1.5rem;
       }
+
+      #figurePopular {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #figurePopular img {
+        width: 10rem;
+        min-width: 10rem;
+        height: 10rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        border-radius: 1rem 0 0 1rem;
+      }
+
+      #figurePopular figure {
+        background-color: white;
+        display: flex;
+        margin-bottom: 1rem;
+        height: 11rem;
+        border-radius: 1.5rem;
+      }
+
+      .wrapperFigureInfo {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .wrapperFigureInfo figcaption {
+        padding-bottom: 0.5rem;
+        font-weight: bold;
+      }
+
+      .starPopular {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .wrapperTotal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+      }
+
+      .fa-star {
+        color: #0065FC;
+        font-size: 1rem;
+      }
+
+      .disabled {
+        color: #F2F2F2;
+      }
+
 }
