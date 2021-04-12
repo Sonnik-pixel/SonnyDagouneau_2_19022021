@@ -7,6 +7,8 @@
         padding: 0;
     } 
 
+    /*headerSection*/
+
     header ul {
         display: flex;
         flex-wrap: wrap;
@@ -17,7 +19,7 @@
         font-size: 1.2rem;
     }
 
-    header li a {
+     a {
         text-decoration: none;
     }
 
@@ -85,4 +87,167 @@
         color: #0065FC;
         border-bottom: 3px solid #0065FC;
     }
+
+    /*searchSection*/
+
+    #searchSection {
+        padding: 2.5rem 1.5rem;
+    }
+
+    #searchSection p {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        font-size: 1.4rem;
+    }
+ 
+    #searchBar {
+        padding: 1rem 0;
+  }
+
+    #borderSearchBar {
+        display: flex;
+        border: 1px solid #F2F2F2;
+        border-radius: 1rem;
+  }
+
+    input {
+        padding: 1rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        width: 100%;
+        border: none;
+  }
+
+    input::placeholder {
+        color: black;
+  }
+
+    i {
+        font-size: 1.2rem;
+  }
+
+    #searchButton {
+        background-color: #0065FC;
+        min-width: 3.6rem;
+        height: 3.6rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+
+    .fa-search {
+        color: white;
+  }
+
+    #mapButton {
+        background-color: #F2F2F2;
+        min-width: 3.6rem;
+        height: 3.6rem;
+        border-radius: 1rem 0rem 0rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+
+    /*containerFilters*/
+
+    #filterTitle {
+        font-weight: bold;
+        font-size: 1.3rem;
+        padding: 2rem 0;
+        width: 100%;
+      }
+    
+      #categoryFilters {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      #containerFilters ul {
+          list-style: none;
+      }
+    
+      #categoryFilters li a {
+        display: flex;
+        align-items: center;
+        height: 3rem;
+        margin-bottom: 1rem;
+        margin-right: 1.5rem;
+        border: 2px solid #F2F2F2;
+        border-radius: 3rem;
+      }
+    
+      .wrapperIcone {
+        background-color: #DEEBFF;
+        border-radius: 3rem;
+        min-width: 3.1rem;
+        height: 3.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .wrapperFiltre {
+        font-size: 1.2rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1.3rem; 
+        color: black;
+      }
+    
+      #categoryFilters li a:hover {
+        background-color: #DEEBFF;
+        transition-duration: 0.5s;
+        border: 2px solid #DEEBFF;
+      }
+    
+      #categoryFilters i {
+        color: #0065FC;
+      }
+
+      /*containerInfo*/
+    
+      .fa-info {
+        color: #0065FC;
+        font-size: 0.8rem;
+      }
+    
+      #containerInfo {
+        display: flex;
+        padding: 1.5rem 0;
+      }
+    
+      #wrapperInfo {
+        border: solid 2px #F2F2F2;
+        min-width: 2rem;
+        height: 2rem;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      #asideFilter {
+        padding-left: 1rem;
+        font-size: 1.2rem;
+      }
+    
+      /*popularSection*/
+
+      #popularSection {
+        background-color: #F2F2F2;
+        padding: 2.5rem 1.5rem;
+      }
+
+      #popularSection header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #popularSection header i {
+        font-size: 1.5rem;
+      }
 }
