@@ -1,73 +1,71 @@
-/* Appareils avec une résolution de 768 pixels ou moins */
+/* Appareils avec une résolution de 768 pixels ou plus */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     /*headerSection*/
 
     header ul {
         display: flex;
-        flex-wrap: wrap;
-        list-style: none;
     }
 
     header li {
         font-size: 1.2rem;
     }
 
-     a {
+    a {
         text-decoration: none;
-        color: black;
     }
 
     .navUn {
-        width: 50%;
-
+        flex-grow: 1;
+        padding-top: 2rem;
+        padding-left: 2rem;
     }
 
     .navDeux {
-        width: 50%;
         display: flex;
         align-items: center;
         justify-content: flex-end;
-
+        order: 20;
+        border-top: 3px solid white;
     }
 
     .navTrois {
-        width: 50%;
         display: flex;
         justify-content: center;
-        padding: 1rem 0;
-        border-bottom: 3px solid #F2F2F2;
+        align-items: center;
+        border-top: 3px solid white;
     }
 
     .navQuatre {
-        width: 50%;
         display: flex;
         justify-content: center;
-        padding: 1rem 0;
-        border-bottom: 3px solid #F2F2F2;
+        align-items: center;
+        border-top: 3px solid white;
     }
 
     .navUn img {
-        padding: 1rem 0 1rem 1rem;
+        padding: 1rem 0;
     }
 
     .navDeux a {
         color: #0065FC;
         font-weight: bold;
-        padding: 1rem;
+        padding: 0 3rem 0 2rem;
     }
 
     .navTrois a {
         color: black;
-    }
-
-    .navTrois a:hover {
-        color: #0065FC;
+        padding: 0 2rem;
     }
 
     .navQuatre a {
         color: black;
+        padding: 0 2rem;
+    }
+
+    .navTrois a:hover {
+        color: #0065FC;
     }
 
     .navQuatre a:hover {
@@ -75,19 +73,17 @@
     }
 
     .navTrois:hover {
-        color: #0065FC;
-        border-bottom: 3px solid #0065FC;
+        border-top: 3px solid #0065FC;
     }
 
     .navQuatre:hover {
-        color: #0065FC;
-        border-bottom: 3px solid #0065FC;
+        border-top: 3px solid #0065FC;
     }
 
     /*searchSection*/
 
     #searchSection {
-        padding: 2.5rem 1.5rem;
+        padding: 2.5rem 2rem;
     }
 
     #searchSection p {
@@ -298,21 +294,6 @@
 
       .disabled {
         color: #F2F2F2;
-      }
-
-      /*hostingSection*/
-
-      #hostingSection {
-        padding: 2.5rem 1.5rem;
-      }
-
-      #hostingSection header {
-        padding-bottom: 2rem;
-      }
-
-      #figureHosting {
-        display: flex;
-        flex-direction: column;
       }
 
 }
