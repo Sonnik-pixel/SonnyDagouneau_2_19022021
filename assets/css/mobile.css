@@ -214,6 +214,7 @@
       #containerInfo {
         display: flex;
         padding: 1.5rem 0;
+        align-items: center;
       }
     
       #wrapperInfo {
@@ -254,7 +255,7 @@
       }
 
       #figurePopular img {
-        width: 10rem;
+        width: 30%;
         object-fit: cover;
         margin: 0.5rem 0 0.5rem 0.5rem;
         border-radius: 1rem 0 0 1rem;

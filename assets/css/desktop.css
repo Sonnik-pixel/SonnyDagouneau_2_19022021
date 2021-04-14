@@ -1,6 +1,6 @@
 /* Appareils avec une résolution de 768 pixels ou plus */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 
     /*headerSection*/
 
@@ -14,6 +14,7 @@
 
     a {
         text-decoration: none;
+        color: black;
     }
 
     .navUn {
@@ -88,8 +89,8 @@
 
     #searchSection p {
         padding-top: 1rem;
-        padding-bottom: 2rem;
-        font-size: 1.4rem;
+        padding-bottom: 1rem;
+        font-size: 1.1rem;
     }
  
     #searchBar {
@@ -100,13 +101,13 @@
         display: flex;
         border: 1px solid #F2F2F2;
         border-radius: 1rem;
+        width: fit-content;
   }
 
     input {
         padding: 1rem;
         font-size: 1.1rem;
         font-weight: bold;
-        width: 100%;
         border: none;
   }
 
@@ -120,16 +121,21 @@
 
     #searchButton {
         background-color: #0065FC;
-        min-width: 3.6rem;
-        height: 3.6rem;
-        border-radius: 1rem;
+        border-radius: 0 1rem 1rem 0;
         display: flex;
         justify-content: center;
         align-items: center;
   }
 
-    .fa-search {
+    #searchButton:after {
+        content: 'Rechercher';
+        padding: 0 1rem;
         color: white;
+        font-weight: bold;
+}
+
+    .fa-search {
+        display: none;
   }
 
     #mapButton {
@@ -147,13 +153,14 @@
     #filterTitle {
         font-weight: bold;
         font-size: 1.3rem;
-        padding: 2rem 0;
-        width: 100%;
+        padding-right: 2rem;
+        padding-top: 0.8rem;
       }
     
       #categoryFilters {
         display: flex;
         flex-wrap: wrap;
+        padding-top: 1rem;
       }
 
       #containerFilters ul {
@@ -164,8 +171,8 @@
         display: flex;
         align-items: center;
         height: 3rem;
-        margin-bottom: 1rem;
         margin-right: 1.5rem;
+        margin-bottom: 1rem;
         border: 2px solid #F2F2F2;
         border-radius: 3rem;
       }
@@ -210,6 +217,7 @@
       #containerInfo {
         display: flex;
         padding: 1.5rem 0;
+        align-items: center;
       }
     
       #wrapperInfo {
@@ -250,7 +258,7 @@
       }
 
       #figurePopular img {
-        width: 10rem;
+        width: 30%;
         object-fit: cover;
         margin: 0.5rem 0 0.5rem 0.5rem;
         border-radius: 1rem 0 0 1rem;
