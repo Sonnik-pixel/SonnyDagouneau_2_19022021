@@ -316,4 +316,37 @@
         flex-direction: column;
       }
 
+      #figureHosting figure {
+        display: flex;
+        flex-direction: column;
+        height: 14rem;
+        border-radius: 1rem;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        margin-bottom: 1rem;
+      }
+
+      #figureHosting img {
+        height: 60%;
+        object-fit: cover;
+        margin: 0.3rem;
+        border-radius: 1rem 1rem 0 0;
+      }
+
+      #figureHosting figcaption {
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+      }
+
+      #figureHosting figcaption span {
+        font-weight: bold;
+      }
+
+      #hostingSection p:last-child {
+        margin: 1rem 0;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
 }
