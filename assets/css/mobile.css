@@ -389,4 +389,33 @@
         font-weight: bold;
         font-size: 1.1rem;
       }
+
+      /* footerSection*/
+
+      #footerSection {
+        background-color: #F2F2F2;
+        padding: 2.5rem 1.5rem;
+      }
+
+      #footerSection nav {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #footerSection h3 {
+        padding: 1rem 0;
+      }
+
+      #footerSection ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        height: 7rem;
+        justify-content: center;
+      }
+
+      #footerSection li {
+        padding-bottom: 1rem;
+      }
+
 }
