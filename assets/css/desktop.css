@@ -239,6 +239,9 @@
       #popularSection {
         background-color: #F2F2F2;
         padding: 2.5rem 1.5rem;
+        width: 25%;
+        border-radius: 1rem;
+        order: 5;
       }
 
       #popularSection header {
@@ -303,5 +306,140 @@
         color: #F2F2F2;
       }
 
-}
+      /*hostingSection*/
 
+      #hostingSection {
+        padding: 2.5rem 1.5rem;
+        width: 60%;
+        background-color: #F2F2F2;
+        border-radius: 1rem;
+      }
+
+      #hostingSection header {
+        padding-bottom: 2rem;
+      }
+
+      #figureHosting {
+        display: flex;
+        /*flex-direction: column;*/
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      #figureHosting a {
+        width: 30%;
+      }
+
+      #figureHosting figure {
+        display: flex;
+        flex-direction: column;
+        height: 14rem;
+        border-radius: 1rem;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        margin-bottom: 1rem;
+        background-color: white;
+      }
+
+      #figureHosting img {
+        height: 60%;
+        object-fit: cover;
+        margin: 0.3rem;
+        border-radius: 1rem 1rem 0 0;
+      }
+
+      #figureHosting figcaption {
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+      }
+
+      #figureHosting figcaption span {
+        font-weight: bold;
+      }
+
+      #hostingSection p:last-child {
+        margin-top: 1rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      /*hostingAndPopular*/
+
+      #hostingAndPopular {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2rem;
+      }
+
+      /* activitySection */
+
+      #activitySection {
+        padding: 2rem 1.5rem;
+      }
+
+      #activitySection header {
+        padding-bottom: 2rem;
+      }
+
+      #figureActivity {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #figureActivity figure {
+        display: flex;
+        flex-direction: column;
+        height: 14rem;
+        border-radius: 1rem;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        margin-bottom: 1.5rem;
+      }
+
+      #figureActivity img {
+        height: 70%;
+        object-fit: cover;
+        border-radius: 1rem 1rem 0 0;
+      }
+
+      #figureActivity figcaption {
+        height: 30%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        padding-left: 1.5rem;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+
+      /* footerSection*/
+
+      #footerSection {
+        background-color: #F2F2F2;
+        padding: 2.5rem 1.5rem;
+      }
+
+      #footerSection nav {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #footerSection h3 {
+        padding: 1rem 0;
+      }
+
+      #footerSection ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        height: 7rem;
+        justify-content: center;
+      }
+
+      #footerSection li {
+        padding-bottom: 1rem;
+      }
+        
+}
