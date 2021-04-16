@@ -1,10 +1,9 @@
-/* Appareils avec une résolution de 768 pixels ou plus */
-
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1024px) {
 
     /*headerSection*/
 
     header ul {
+        background-color: salmon;
         display: flex;
     }
 
@@ -305,3 +304,4 @@
       }
 
 }
+
