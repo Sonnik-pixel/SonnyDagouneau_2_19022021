@@ -374,7 +374,7 @@
         padding: 0 2rem;
       }
 
-      /* activitySection */
+      /*activitySection */
 
       #activitySection {
         padding: 2rem 1.5rem;
@@ -391,15 +391,17 @@
       }
 
       #figureActivity a {
-        width: 22%;
+        width: 23%;
       }
 
       #wrapperPomeguesFrioul {
         width: 22%;
+        height: 30rem;
       }
 
       #wrapperDameLongchamp {
         width: 22%;
+        height: 30rem;
       }
 
       #figureActivity figure {
@@ -427,9 +429,49 @@
         font-size: 1.1rem;
       }
 
-      /* new size*/
-      
-      /* footerSection*/
+      /*new size figureActivity*/
+
+      #vieuxPort {
+        height: 30rem;
+      }
+
+      #vieuxPort figure {
+        height: 100%;
+      }
+
+      #vieuxPort figure img {
+        height: 85%;
+      }
+
+      #parcNational {
+        height: 30rem;
+      }
+
+      #parcNational figure {
+        height: 100%;
+      }
+
+      #parcNational figure img {
+        height: 85%;
+      }
+
+      #fortPomegues figure {
+        height: 60%;
+      }
+
+      #fortPomegues figure img {
+        height: 80%;
+      }
+
+      #ilesFrioul figure {
+        height: 35%;
+      }
+
+      #ilesFrioul figure img {
+        height: 60%;
+      }
+
+      /*footerSection*/
 
       #footerSection {
         background-color: #F2F2F2;
