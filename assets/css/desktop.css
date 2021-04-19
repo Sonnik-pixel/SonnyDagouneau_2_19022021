@@ -386,7 +386,20 @@
 
       #figureActivity {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        /*flex-direction: column;*/
+      }
+
+      #figureActivity a {
+        width: 22%;
+      }
+
+      #wrapperPomeguesFrioul {
+        width: 22%;
+      }
+
+      #wrapperDameLongchamp {
+        width: 22%;
       }
 
       #figureActivity figure {
@@ -414,6 +427,8 @@
         font-size: 1.1rem;
       }
 
+      /* new size*/
+      
       /* footerSection*/
 
       #footerSection {
