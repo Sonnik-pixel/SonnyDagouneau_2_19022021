@@ -393,7 +393,7 @@
 
       #footerSection {
         background-color: #F2F2F2;
-        padding: 2.5rem 1.5rem;
+        padding: 2.5rem 1.5rem 0;
       }
 
       #footerSection nav {
