@@ -507,7 +507,6 @@
         display: flex;
         flex-direction: column;
         height: 7rem;
-        justify-content: center;
       }
 
       #footerSection li {
