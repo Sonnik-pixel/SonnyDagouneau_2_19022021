@@ -238,8 +238,8 @@
 
       #popularSection {
         background-color: #F2F2F2;
-        padding: 2.5rem 1.5rem;
-        width: 25%;
+        padding: 2.5rem 3rem 1rem;
+        width: 22%;
         border-radius: 1rem;
         order: 5;
       }
@@ -257,6 +257,8 @@
       #figurePopular {
         display: flex;
         flex-direction: column;
+        height: 35rem;
+        justify-content: space-between;
       }
 
       #figurePopular img {
@@ -270,7 +272,7 @@
         background-color: white;
         display: flex;
         margin-bottom: 1rem;
-        height: 11rem;
+        height: 10rem;
         border-radius: 1.5rem;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       }
@@ -310,6 +312,7 @@
 
       #hostingSection {
         padding: 2.5rem 1.5rem;
+        margin-right: 0.5rem;
         width: 66%;
         background-color: #F2F2F2;
         border-radius: 1rem;
@@ -317,6 +320,7 @@
 
       #hostingSection header {
         padding-bottom: 2rem;
+        padding-left: 1.2rem;
       }
 
       #figureHosting {
@@ -324,7 +328,7 @@
         /*flex-direction: column;*/
         flex-wrap: wrap;
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
       }
 
       #figureHosting a {
@@ -364,6 +368,7 @@
         margin-top: 1rem;
         font-weight: bold;
         font-size: 1.2rem;
+        padding-left: 1.2rem;
       }
 
       /*hostingAndPopular*/
@@ -377,7 +382,7 @@
       /*activitySection */
 
       #activitySection {
-        padding: 2rem 1.5rem;
+        padding: 2rem 2rem;
       }
 
       #activitySection header {
@@ -407,7 +412,7 @@
       #figureActivity figure {
         display: flex;
         flex-direction: column;
-        height: 14rem;
+        /*height: 14rem;*/
         border-radius: 1rem;
         box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
         margin-bottom: 1.5rem;
@@ -468,14 +473,22 @@
       }
 
       #ilesFrioul figure img {
-        height: 60%;
+        height: 57%;
+      }
+
+      #notreDame figure {
+        height: 47.5%;
+      }
+
+      #parcLongchamp figure {
+        height: 47.5%;
       }
 
       /*footerSection*/
 
       #footerSection {
         background-color: #F2F2F2;
-        padding: 2.5rem 1.5rem;
+        padding: 2.5rem 2rem;
       }
 
       #footerSection nav {
