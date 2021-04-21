@@ -3,7 +3,6 @@
     /*headerSection*/
 
     header ul {
-        background-color: salmon;
         display: flex;
     }
 
@@ -400,12 +399,12 @@
       }
 
       #wrapperPomeguesFrioul {
-        width: 22%;
+        width: 23%;
         height: 30rem;
       }
 
       #wrapperDameLongchamp {
-        width: 22%;
+        width: 23%;
         height: 30rem;
       }
 
