@@ -1,515 +1,512 @@
 @media only screen and (min-width: 1024px) {
+  /*headerSection*/
 
-    /*headerSection*/
-
-    header ul {
-        display: flex;
-    }
-
-    header li {
-        font-size: 1.2rem;
-    }
-
-    a {
-        text-decoration: none;
-        color: black;
-    }
-
-    .navUn {
-        flex-grow: 1;
-        padding-top: 2rem;
-        padding-left: 2rem;
-    }
-
-    .navDeux {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        order: 20;
-        border-top: 3px solid white;
-    }
-
-    .navTrois {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-top: 3px solid white;
-    }
-
-    .navQuatre {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-top: 3px solid white;
-    }
-
-    .navUn img {
-        padding: 1rem 0;
-    }
-
-    .navDeux a {
-        color: #0065FC;
-        font-weight: bold;
-        padding: 0 3rem 0 2rem;
-    }
-
-    .navTrois a {
-        color: black;
-        padding: 0 2rem;
-    }
-
-    .navQuatre a {
-        color: black;
-        padding: 0 2rem;
-    }
-
-    .navTrois a:hover {
-        color: #0065FC;
-    }
-
-    .navQuatre a:hover {
-        color: #0065FC;
-    }
-
-    .navTrois:hover {
-        border-top: 3px solid #0065FC;
-    }
-
-    .navQuatre:hover {
-        border-top: 3px solid #0065FC;
-    }
-
-    /*searchSection*/
-
-    #searchSection {
-        padding: 2.5rem 2rem;
-    }
-
-    #searchSection p {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        font-size: 1.1rem;
-    }
- 
-    #searchBar {
-        padding: 1rem 0;
+  header ul {
+    display: flex;
   }
 
-    #borderSearchBar {
-        display: flex;
-        border: 1px solid #F2F2F2;
-        border-radius: 1rem;
-        width: fit-content;
+  header li {
+    font-size: 1.2rem;
   }
 
-    input {
-        padding: 1rem;
-        font-size: 1.1rem;
-        font-weight: bold;
-        border: none;
+  a {
+    text-decoration: none;
+    color: black;
   }
 
-    input::placeholder {
-        color: black;
+  .navUn {
+    flex-grow: 1;
+    padding-top: 2rem;
+    padding-left: 2rem;
   }
 
-    i {
-        font-size: 1.2rem;
+  .navDeux {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    order: 20;
+    border-top: 3px solid transparent;
   }
 
-    #searchButton {
-        background-color: #0065FC;
-        border-radius: 0 1rem 1rem 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+  .navTrois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid transparent;
   }
 
-    #searchButton:after {
-        content: 'Rechercher';
-        padding: 0 1rem;
-        color: white;
-        font-weight: bold;
-}
-
-    .fa-search {
-        display: none;
+  .navQuatre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid transparent;
   }
 
-    #mapButton {
-        background-color: #F2F2F2;
-        min-width: 3.6rem;
-        height: 3.6rem;
-        border-radius: 1rem 0rem 0rem 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+  .navUn img {
+    padding: 1rem 0;
   }
 
-    /*containerFilters*/
+  .navDeux a {
+    color: #0065fc;
+    font-weight: bold;
+    padding: 0 3rem 0 2rem;
+  }
 
-    #filterTitle {
-        font-weight: bold;
-        font-size: 1.3rem;
-        padding-right: 2rem;
-        padding-top: 0.8rem;
-      }
-    
-      #categoryFilters {
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 1rem;
-      }
+  .navTrois a {
+    color: black;
+    padding: 0 2rem;
+  }
 
-      #containerFilters ul {
-          list-style: none;
-      }
-    
-      #categoryFilters li a {
-        display: flex;
-        align-items: center;
-        height: 3rem;
-        margin-right: 1.5rem;
-        margin-bottom: 1rem;
-        border: 2px solid #F2F2F2;
-        border-radius: 3rem;
-      }
-    
-      .wrapperIcone {
-        background-color: #DEEBFF;
-        border-radius: 3rem;
-        min-width: 3.1rem;
-        height: 3.1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-    
-      .wrapperFiltre {
-        font-size: 1.2rem;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 1.3rem; 
-        color: black;
-      }
-    
-      #categoryFilters li a:hover {
-        background-color: #DEEBFF;
-        transition-duration: 0.7s;
-        border: 2px solid #DEEBFF;
-      }
-    
-      #categoryFilters i {
-        color: #0065FC;
-      }
+  .navQuatre a {
+    color: black;
+    padding: 0 2rem;
+  }
 
-      /*containerInfo*/
-    
-      .fa-info {
-        color: #0065FC;
-        font-size: 0.8rem;
-      }
-    
-      #containerInfo {
-        display: flex;
-        padding: 1.5rem 0;
-        align-items: center;
-      }
-    
-      #wrapperInfo {
-        border: solid 2px #F2F2F2;
-        min-width: 2rem;
-        height: 2rem;
-        border-radius: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    
-      #asideFilter {
-        padding-left: 1rem;
-        font-size: 1.2rem;
-      }
-    
-      /*popularSection*/
+  .navTrois a:hover {
+    color: #0065fc;
+  }
 
-      #popularSection {
-        background-color: #F2F2F2;
-        padding: 2.5rem 3rem 1rem;
-        width: 22%;
-        border-radius: 1rem;
-        order: 5;
-      }
+  .navQuatre a:hover {
+    color: #0065fc;
+  }
 
-      #popularSection header {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 2rem;
-      }
+  .navTrois:hover {
+    border-top: 3px solid #0065fc;
+  }
 
-      #popularSection header i {
-        font-size: 1.5rem;
-      }
+  .navQuatre:hover {
+    border-top: 3px solid #0065fc;
+  }
 
-      #figurePopular {
-        display: flex;
-        flex-direction: column;
-        height: 35rem;
-        justify-content: space-between;
-      }
+  /*searchSection*/
 
-      #figurePopular img {
-        width: 30%;
-        object-fit: cover;
-        margin: 0.5rem 0 0.5rem 0.5rem;
-        border-radius: 1rem 0 0 1rem;
-      }
+  #searchSection {
+    padding: 2.5rem 2rem;
+  }
 
-      #figurePopular figure {
-        background-color: white;
-        display: flex;
-        margin-bottom: 1rem;
-        height: 10rem;
-        border-radius: 1.5rem;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      }
+  #searchSection p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+  }
 
-      .wrapperFigureInfo {
-        display: flex;
-        flex-direction: column;
-      }
+  #searchBar {
+    padding: 1rem 0;
+  }
 
-      .wrapperFigureInfo span {
-        padding-bottom: 0.5rem;
-        font-weight: bold;
-      }
+  #borderSearchBar {
+    display: flex;
+    border: 1px solid #f2f2f2;
+    border-radius: 1rem;
+    width: fit-content;
+  }
 
-      .starPopular {
-        display: flex;
-        flex-wrap: wrap;
-      }
+  input {
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+  }
 
-      .wrapperTotal {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 1rem;
-      }
+  input::placeholder {
+    color: black;
+  }
 
-      .fa-star {
-        color: #0065FC;
-        font-size: 1rem;
-      }
+  i {
+    font-size: 1.2rem;
+  }
 
-      .disabled {
-        color: #F2F2F2;
-      }
+  #searchButton {
+    background-color: #0065fc;
+    border-radius: 0 1rem 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-      /*hostingSection*/
+  #searchButton:after {
+    content: "Rechercher";
+    padding: 0 1rem;
+    color: white;
+    font-weight: bold;
+  }
 
-      #hostingSection {
-        padding: 2.5rem 1.5rem;
-        margin-right: 0.5rem;
-        width: 66%;
-        background-color: #F2F2F2;
-        border-radius: 1rem;
-      }
+  .fa-search {
+    display: none;
+  }
 
-      #hostingSection header {
-        padding-bottom: 2rem;
-        padding-left: 1.2rem;
-      }
+  #mapButton {
+    background-color: #f2f2f2;
+    min-width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-      #figureHosting {
-        display: flex;
-        /*flex-direction: column;*/
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: space-around;
-      }
+  /*containerFilters*/
 
-      #figureHosting a {
-        width: 30%;
-      }
+  #filterTitle {
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+  }
 
-      #figureHosting figure {
-        display: flex;
-        flex-direction: column;
-        height: 14rem;
-        border-radius: 1rem;
-        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
-        margin-bottom: 2rem;
-        background-color: white;
-      }
+  #categoryFilters {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+  }
 
-      #figureHosting img {
-        height: 60%;
-        object-fit: cover;
-        margin: 0.3rem;
-        border-radius: 1rem 1rem 0 0;
-      }
+  #containerFilters ul {
+    list-style: none;
+  }
 
-      #figureHosting figcaption {
-        display: flex;
-        flex-direction: column;
-        height: 30%;
-        justify-content: space-between;
-        padding: 0 0.5rem;
-      }
+  #categoryFilters li a {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid #f2f2f2;
+    border-radius: 3rem;
+  }
 
-      #figureHosting figcaption span {
-        font-weight: bold;
-      }
+  .wrapperIcone {
+    background-color: #deebff;
+    border-radius: 3rem;
+    min-width: 3.1rem;
+    height: 3.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-      #hostingSection p:last-child {
-        margin-top: 1rem;
-        font-weight: bold;
-        font-size: 1.2rem;
-        padding-left: 1.2rem;
-      }
+  .wrapperFiltre {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.3rem;
+    color: black;
+  }
 
-      /*hostingAndPopular*/
+  #categoryFilters li a:hover {
+    background-color: #deebff;
+    transition-duration: 0.7s;
+    border: 2px solid #deebff;
+  }
 
-      #hostingAndPopular {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 2rem;
-      }
+  #categoryFilters i {
+    color: #0065fc;
+  }
 
-      /*activitySection */
+  /*containerInfo*/
 
-      #activitySection {
-        padding: 2rem 2rem;
-      }
+  .fa-info {
+    color: #0065fc;
+    font-size: 0.8rem;
+  }
 
-      #activitySection header {
-        padding-bottom: 2rem;
-      }
+  #containerInfo {
+    display: flex;
+    padding: 1.5rem 0;
+    align-items: center;
+  }
 
-      #figureActivity {
-        display: flex;
-        justify-content: space-between;
-        /*flex-direction: column;*/
-      }
+  #wrapperInfo {
+    border: solid 2px #f2f2f2;
+    min-width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-      #figureActivity a {
-        width: 23%;
-      }
+  #asideFilter {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+  }
 
-      #wrapperPomeguesFrioul {
-        width: 23%;
-        height: 30rem;
-      }
+  /*popularSection*/
 
-      #wrapperDameLongchamp {
-        width: 23%;
-        height: 30rem;
-      }
+  #popularSection {
+    background-color: #f2f2f2;
+    padding: 2.5rem 3rem 1rem;
+    width: 22%;
+    border-radius: 1rem;
+    order: 5;
+  }
 
-      #figureActivity figure {
-        display: flex;
-        flex-direction: column;
-        /*height: 14rem;*/
-        border-radius: 1rem;
-        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
-        margin-bottom: 1.5rem;
-      }
+  #popularSection header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
 
-      #figureActivity img {
-        height: 70%;
-        object-fit: cover;
-        border-radius: 1rem 1rem 0 0;
-      }
+  #popularSection header i {
+    font-size: 1.5rem;
+  }
 
-      #figureActivity figcaption {
-        height: 30%;
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        padding-left: 1.5rem;
-        font-weight: bold;
-        font-size: 1.1rem;
-      }
+  #figurePopular {
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    justify-content: space-between;
+  }
 
-      /*new size figureActivity*/
+  #figurePopular img {
+    width: 30%;
+    object-fit: cover;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    border-radius: 1rem 0 0 1rem;
+  }
 
-      #vieuxPort {
-        height: 30rem;
-      }
+  #figurePopular figure {
+    background-color: white;
+    display: flex;
+    margin-bottom: 1rem;
+    height: 10rem;
+    border-radius: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 
-      #vieuxPort figure {
-        height: 100%;
-      }
+  .wrapperFigureInfo {
+    display: flex;
+    flex-direction: column;
+  }
 
-      #vieuxPort figure img {
-        height: 85%;
-      }
+  .wrapperFigureInfo span {
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+  }
 
-      #parcNational {
-        height: 30rem;
-      }
+  .starPopular {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-      #parcNational figure {
-        height: 100%;
-      }
+  .wrapperTotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+  }
 
-      #parcNational figure img {
-        height: 85%;
-      }
+  .fa-star {
+    color: #0065fc;
+    font-size: 1rem;
+  }
 
-      #fortPomegues figure {
-        height: 60%;
-      }
+  .disabled {
+    color: #f2f2f2;
+  }
 
-      #fortPomegues figure img {
-        height: 80%;
-      }
+  /*hostingSection*/
 
-      #ilesFrioul figure {
-        height: 35%;
-      }
+  #hostingSection {
+    padding: 2.5rem 1.5rem;
+    margin-right: 0.5rem;
+    width: 66%;
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+  }
 
-      #ilesFrioul figure img {
-        height: 57%;
-      }
+  #hostingSection header {
+    padding-bottom: 2rem;
+    padding-left: 1.2rem;
+  }
 
-      #notreDame figure {
-        height: 47.5%;
-      }
+  #figureHosting {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+  }
 
-      #parcLongchamp figure {
-        height: 47.5%;
-      }
+  #figureHosting a {
+    width: 30%;
+  }
 
-      /*footerSection*/
+  #figureHosting figure {
+    display: flex;
+    flex-direction: column;
+    height: 14rem;
+    border-radius: 1rem;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin-bottom: 2rem;
+    background-color: white;
+  }
 
-      #footerSection {
-        background-color: #F2F2F2;
-        padding: 2.5rem 2rem;
-      }
+  #figureHosting img {
+    height: 60%;
+    object-fit: cover;
+    margin: 0.3rem;
+    border-radius: 1rem 1rem 0 0;
+  }
 
-      #footerSection nav {
-        display: flex;
-        /*flex-direction: column;*/
-        width: 70%;
-        justify-content: space-between;
-      }
+  #figureHosting figcaption {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+  }
 
-      #footerSection h3 {
-        padding: 1rem 0;
-      }
+  #figureHosting figcaption span {
+    font-weight: bold;
+  }
 
-      #footerSection ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        height: 7rem;
-      }
+  #hostingSection p:last-child {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
+  }
 
-      #footerSection li {
-        padding-bottom: 1rem;
-      }
-        
+  /*hostingAndPopular*/
+
+  #hostingAndPopular {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+
+  /*activitySection */
+
+  #activitySection {
+    padding: 2rem 2rem;
+  }
+
+  #activitySection header {
+    padding-bottom: 2rem;
+  }
+
+  #figureActivity {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #figureActivity a {
+    width: 23%;
+  }
+
+  #wrapperPomeguesFrioul {
+    width: 23%;
+    height: 30rem;
+  }
+
+  #wrapperDameLongchamp {
+    width: 23%;
+    height: 30rem;
+  }
+
+  #figureActivity figure {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin-bottom: 1.5rem;
+  }
+
+  #figureActivity img {
+    height: 70%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  #figureActivity figcaption {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  /*newSize figureActivity*/
+
+  #vieuxPort {
+    height: 30rem;
+  }
+
+  #vieuxPort figure {
+    height: 100%;
+  }
+
+  #vieuxPort figure img {
+    height: 85%;
+  }
+
+  #parcNational {
+    height: 30rem;
+  }
+
+  #parcNational figure {
+    height: 100%;
+  }
+
+  #parcNational figure img {
+    height: 85%;
+  }
+
+  #fortPomegues figure {
+    height: 60%;
+  }
+
+  #fortPomegues figure img {
+    height: 80%;
+  }
+
+  #ilesFrioul figure {
+    height: 35%;
+  }
+
+  #ilesFrioul figure img {
+    height: 57%;
+  }
+
+  #notreDame figure {
+    height: 47.5%;
+  }
+
+  #parcLongchamp figure {
+    height: 47.5%;
+  }
+
+  /*footerSection*/
+
+  #footerSection {
+    background-color: #f2f2f2;
+    padding: 2.5rem 2rem;
+  }
+
+  #footerSection nav {
+    display: flex;
+    width: 100%;
+  }
+
+  #footerSection div {
+    width: 33%;
+  }
+
+  #footerSection h3 {
+    padding: 1rem 0;
+  }
+
+  #footerSection ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 7rem;
+  }
+
+  #footerSection li {
+    padding-bottom: 1rem;
+  }
 }
