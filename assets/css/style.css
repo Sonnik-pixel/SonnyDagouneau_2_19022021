@@ -6,5 +6,5 @@
 } 
 
 figure:hover {
-    border: 2px solid #0065FC;
+    opacity: 0.7;
 }
