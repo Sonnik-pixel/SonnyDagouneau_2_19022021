@@ -164,7 +164,7 @@
     align-items: center;
     height: 3rem;
     margin-bottom: 1rem;
-    margin-right: 1.5rem;
+    margin-right: 0.9rem;
     border: 2px solid #f2f2f2;
     border-radius: 3rem;
   }
@@ -180,12 +180,11 @@
   }
 
   .wrapperFiltre {
-    font-size: 1.2rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 1.3rem;
+    padding: 0 0.5rem;
     color: black;
   }
 
