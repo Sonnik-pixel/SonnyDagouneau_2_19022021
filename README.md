@@ -4,7 +4,7 @@
  [Mon GitHub Pages](https://sonnik-pixel.github.io/SonnyDagouneau_2_19022021/)
 
  * Convention de nommage utilisé : camelCase
- [![Desktop-1.png](https://i.postimg.cc/cJ6cMCSb/Desktop-1.png)](https://postimg.cc/zLZWqJ3C)
+ * [![Desktop-1.png](https://i.postimg.cc/cJ6cMCSb/Desktop-1.png)](https://postimg.cc/zLZWqJ3C)
 
 # Fonctionnalités
 
