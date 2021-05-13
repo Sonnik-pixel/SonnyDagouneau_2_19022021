@@ -1,6 +1,6 @@
 # SonnyDagouneau_2_19022021
 
-# OpenClassroom P2 : Transformez votre CV en site web
+# OpenClassroom P2 : Transformez une maquette en site web
  [Mon GitHub Pages](https://sonnik-pixel.github.io/SonnyDagouneau_2_19022021/)
 
  * Convention de nommage utilisé : camelCase
