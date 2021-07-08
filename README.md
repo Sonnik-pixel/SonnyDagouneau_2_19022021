@@ -1,5 +1,5 @@
 # OpenClassroom P2 : Transformez une maquette en site web
- [![Desktop-1.png](https://i.postimg.cc/cJ6cMCSb/Desktop-1.png)](https://postimg.cc/zLZWqJ3C)
+ ![Reservia](https://user.oc-static.com/upload/2020/08/24/1598262857804_Maquette%20reservia-min.png)
  * [Mon GitHub Pages](https://sonnik-pixel.github.io/SonnyDagouneau_2_19022021/)
  * Convention de nommage utilisé : camelCase
 
