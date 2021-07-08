@@ -1,5 +1,3 @@
-# SonnyDagouneau_2_19022021
-
 # OpenClassroom P2 : Transformez une maquette en site web
  [![Desktop-1.png](https://i.postimg.cc/cJ6cMCSb/Desktop-1.png)](https://postimg.cc/zLZWqJ3C)
  * [Mon GitHub Pages](https://sonnik-pixel.github.io/SonnyDagouneau_2_19022021/)
